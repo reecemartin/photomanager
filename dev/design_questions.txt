@@ -1,0 +1,32 @@
+# Phase 1 Design Questions
+
+Q: Which part(s) of the program are responsible for reading the contents of the
+starting directory?
+
+	ConfigManager
+
+Q: What happens when a new tag is created?
+
+	It is added to the File object Tags and history and then sent to Directory to update 
+	  the old logData which then gets sent to ConfigManager to be written to the 
+	  config.
+
+Q: Which class is keeping track of the association between tags and files?
+
+	File
+
+Q: How will files be moved to a new folder?
+
+	Directory will get a File from Tree in folder 1 and remove it from that Tree's arrayList and then move it to to the new Tree representing the 
+	  folder to move it to. Then move the physical File in the OS's directory to the file that the new Tree represents. If folder does not exist in
+	  the OS's directory, make a new Tree and folder in the OS's directory.
+
+Q: How will tags persist between executions?
+
+	Tags will be stored in the 1st line of the config file. Tags on Files are to be added to the end of the OS's directory versions of the Files.
+
+Q: How will all the renaming be logged.
+
+	After any renaming, the old name, new name, time stamp, and associated File will be sent to the Directory's logData to add it to the ArrayList for that File.
+
+Q: How will history be logged?

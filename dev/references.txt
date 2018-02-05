@@ -1,0 +1,81 @@
+==================== PHASE 1 ===========================================================================================
+
+JavaFX file chooser:
+http://java-buddy.blogspot.ca/2013/01/use-javafx-filechooser-to-open-image.html
+Date found: Oct 24, 2017
+Date referenced: Oct 24, 2017 -
+
+JavaFX ImageView:
+http://www.java2s.com/Code/Java/JavaFX/UsingImageViewtodisplayimage.htm
+Date found: Nov 9, 2017
+Date referenced: Nov 9, 2017 -
+
+JavaFX using Scenebuilder:
+http://code.makery.ch/library/javafx-8-tutorial/part1/
+Date found: Nov 9, 2017
+Date referenced: Nov 9, 2017 -
+
+JavaFX Application:
+https://www.tutorialspoint.com/javafx/javafx_application.htm
+Date found: Nov 9, 2017
+Date referenced: Nov 9, 2017 -
+
+Java File Chooser Class (Swing)
+https://docs.oracle.com/javase/tutorial/uiswing/components/filechooser.html
+Date found: Nov 11, 2017
+Date referenced: Nov 11, 2017 -
+
+Java File Class
+https://docs.oracle.com/javase/7/docs/api/java/io/File.html
+Date found: Nov 11, 2017
+Date referenced: Nov 11, 2017 -
+
+Java File Chooser Class (JavaFX)
+https://docs.oracle.com/javase/8/javafx/api/javafx/stage/FileChooser.html
+Date found: Nov 11, 2017
+Date referenced: Nov 11, 2017 -
+
+JavaFX Listview Custom Naming
+https://stackoverflow.com/questions/36657299/how-can-i-populate-a-listview-in-javafx-using-custom-objects
+Date found: Nov 12, 2017
+Date referenced: Nov 12, 2017 -
+
+==================== PHASE 2 ===========================================================================================
+
+Object Recognition Using TensorFlow (Java)
+Copyright 2017 Taha Emara
+Licensed through Apache 2.0
+
+Note: By requirement:
+
+"
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works;
+
+"
+
+Source: http://emaraic.com/blog/object-recognition-using-TensorFlow-Java
+
+Date found: Nov 21, 2017
+Date referenced: Nov 21, 2017 -
+
+Note: Any modified or duplicated methods display a notice as required by part 4) b) of the Apache 2.0 license:
+
+"
+   (b) You must cause any modified files to carry prominent notices
+       stating that You changed the files; and
+"
+
+The format follows:
+
+This method was sourced from Taha Emara Copyright 2017,
+(http://emaraic.com/blog/object-recognition-using-TensorFlow-Java)
+More info in Phase2/License
+
+This method was modified from Taha Emara Copyright 2017,
+(http://emaraic.com/blog/object-recognition-using-TensorFlow-Java)
+More info in Phase2/License
+

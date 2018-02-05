@@ -1,0 +1,49 @@
+HELP! I need some Javac, HELP! not just any Javac, HELP! gotta get my code to run, HELLLLLLP
+
+
+Running Photomanager from Git Bash
+
+1) Ensure javac is in your path, you can check this by entering
+
+>echo $PATH 
+
+in your git bash.
+
+If javac is in your path proceed to 2) otherwise proceed to 1b).
+
+
+
+1b) In this case you do not currently have javac in your path, but fear not!
+
+First locate your JDK and find the path to the bin folder. The JDK is typically
+
+located under C/users/programfiles/java on Windows Machines. Once you have the path 
+
+run the following command
+
+>export PATH=$PATH:"/your-path-here/bin/"
+
+this command will add javac to your path.
+
+
+
+2) Next cd into the group_0451/phase1/src/main/java folder in your git bash.
+
+Enter the following command
+
+>javac -classpath .;../../../res/*.jar -D com/PhotoManager/GUInterface.java
+
+the command should exit upon execution, it may suggest recompiling with xlint
+
+but this is unnecessary.
+
+
+
+3) Now you're ready to rock! While located in the source folder enter
+
+>java PhotoManager.GUInterface 
+
+and the program will run!
+
+
+

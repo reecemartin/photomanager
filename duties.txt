@@ -1,0 +1,87 @@
+﻿Tim's Duties
+============
+PHASE 1
+- Led the initial back-end design including methods and how they would interact with each other.
+- Wrote how we read/write data from the config file in ConfigManager.
+- Designed the initialization methods in non-GUI classes.
+- Created the methods to add/store/remove Images and Directories in Directory.
+- Created most of the methods to add/store/get information from within Image.
+- Created methods to manipulate the OS' files to mimic the program's.
+- Created the garbage collection of open Images in ImageMenuController.
+- Allowed the program to operate above the current root Directory.
+- Optimized/created a lot of the Controller methods which organize history/available tag information and some methods which manipulate information in the model package.
+- General bug fixes & optimizations & JavaDocs.
+------------------------------------------------------------------------------------------------------------------------
+PHASE 2
+- Taken over from Phase 1, the additional feature of being able to move the root directory up.
+- Allowed for the global set of tags to function throughout relaunches.
+- Allowed our program to handle Maven so that plugins will automatically be installed.
+- Created TagManager and the majority of its functionality.
+- Created almost all of ControllerTest.
+- Changed how we stored histories to be in each Image rather than in Controller for better design.
+- Misc bug fixes/optimizations.
+
+Chris' Duties
+============
+PHASE 1
+-Worked on the design and implementation  �back-end� classes, namely Controller, Directory and Image.
+-Helped debug the back end program and wrote javadocs for Controller.java
+-Implemented/helped modify the methods in the three above classes(for example:
+Image:
+-openInCurrentDirectory
+-removeAllTags
+Controller:
+-logHistory
+-MoveFileToDirectory
+-Search
+Controller:
+-removeTag
+ImageMenuController
+-handleBack
+etc.)
+-Assisted with the implementation of the �front-end� GUI, mainly focusing on the debugging process and making sure the GUI is using the back-end program properly.
+------------------------------------------------------------------------------------------------------------------------
+PHASE 2
+- General Bug Fixes.
+- More extensive bug-testing
+- Implemented unit test for Controller and Image
+- Optimization of javadocs in back end 
+
+Reece's Duties
+==============
+PHASE 1
+- General Bug Fixes and Optimization.
+- Created UML, worked on overall design.
+- Changed classes using System.out.println to loggers.
+- Wrote Javadoc for front end classes.
+- Wrote help.txt, set up running the program from command line.
+
+Created interfaces for SearchMenuController and DirectoryMenuController, played a significant role creating the other interfaces while working with Ellen, in addition to planning interfaces needed from the start.
+Wrote controllers for SearchMenuController and DirectoryMenuController, again played a significant role in the creation of controllers for the other interfaces needed for the gui. Wrote the entire preliminary search functionality including the back end search methods and the SearchMenu gu interface and controller. Implemented several controllermethods such as FindImagesByTag and other methods regarding tagging.
+------------------------------------------------------------------------------------------------------------------------
+PHASE 2
+- Implemented AllHistoryMenu and its controller
+- Implemented TagMenu and its controller
+- General Bug Fixes.
+- Helped with UML and overall design.
+- Helped drive implementation of new feature by adapting code to our platform as well as restructuring our project to
+  include the necessary dependencies.
+- Created JUnit Classes for Controller and Image
+- Created JUnit Tests for Image
+
+Yufei's Duties
+==============
+PHASE 1
+- Main driver behind front-end functionalities
+- Created and implemented most of class GUInterface, the class that links the front-end and the back-end of the program.
+- Created and implemented ImageMenu, HistoryMenu, StartupMenu, RootLayout, and their respective controllers.
+- Debugged and rewrote of some methods in Controller.
+- UML diagram and duties assignment.
+------------------------------------------------------------------------------------------------------------------------
+PHASE 2
+- Added MultipleImageMenu and its controller, which is the menu that deals with functionalities across multiple images (adding/removing tags, etc)
+- Implemented & integrated ObjectClassifier into back-end & GUI
+- Helped with implementation of AllHistoryMenu from the back end
+- Miscellaneous bug-fixes and optimization
+- Optimization of front-end code and JavaDoc
+- Updated UML diagram
