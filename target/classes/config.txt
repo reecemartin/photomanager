@@ -1,3 +1,0 @@
-reece, josh homme, watch, jersey, desk, reroute, tabby
-C:\Users\jdzl5\Desktop\1.jpg|1.jpg;1 @josh homme.jpg;Nov, 30, 2017, 14:46:41|1 @josh homme.jpg;1.jpg;Nov, 30, 2017, 14:46:48
-C:\Users\jdzl5\Desktop\23439581_1181002528669852_1408070683_n @reece.jpg|23439581_1181002528669852_1408070683_n @reece.jpg;23439581_1181002528669852_1408070683_n @reece @jersey.jpg;November, 29, 2017, 23:07:56|23439581_1181002528669852_1408070683_n @reece @jersey.jpg;23439581_1181002528669852_1408070683_n @reece.jpg;Nov, 30, 2017, 14:16:53
