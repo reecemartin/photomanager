@@ -13,3 +13,6 @@ Clone the repo then enter the target/classes folder. Run the following: ```java 
 
 # Acknowledgements
 This project was developed as the final project for CSC207: Software Design at the University of Toronto, St. George campus. Many thanks to our professor Paul Gries for his direction during the course, and the TAs who helped us out. 
+
+# Future
+Want to create a dc executable file.
