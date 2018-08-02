@@ -8,5 +8,8 @@ PhotoManager is a Java program with a JavaFX interface with which the user inter
 # How It Works
 The data store for the PhotoManager is generated on startup when the user specifies the root of the repository. Each image file and directory is represented by an object, and the directory tree is represented by a recursive definition, with each directory storing its children directories. The tags added to the photos are stored in the file name of the photos themselves along with the original file name, and on startup the program goes through every photo in the repository by recursion to update the database with the stored tags. The graphical user interface is implemented in JavaFX, using the Model-View-Controller design pattern.
 
+# How To Run From The Command Line
+Clone the repo then enter the target/classes folder. Run the following: ```java com.PhotoManager.GUInterface```
+
 # Acknowledgements
 This project was developed as the final project for CSC207: Software Design at the University of Toronto, St. George campus. Many thanks to our professor Paul Gries for his direction during the course, and the TAs who helped us out. 
