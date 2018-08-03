@@ -1,5 +1,4 @@
-HELP! I need some Javac, HELP! not just any Javac, HELP! gotta get my code to run, HELLLLLLP
-
+This needs to be updated***
 
 Running Photomanager from Git Bash
 
